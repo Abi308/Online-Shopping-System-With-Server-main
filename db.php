@@ -1,9 +1,9 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$db = "apricot-store";
+$servername = "abin.mysql.database.azure.com";
+$username = "abinaya";
+$password = "password@123";
+$db = "aprcotstore";
 
 // Create connection
 $con = mysqli_connect($servername, $username, $password,$db);
